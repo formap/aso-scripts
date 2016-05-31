@@ -1,5 +1,6 @@
 #!/bin/bash
 # first parameter: IP range; second parameter: PORT(S)
+# ./scanPorts.sh 192.168.1.45 80
 usage="Usage: scanPorts.sh [IP range] [ports]"
 
 if [ $# -ne 2 ]; then
